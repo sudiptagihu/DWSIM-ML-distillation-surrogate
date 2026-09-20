@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Binary Benzene-Toluene Distillation Column Surrogate Modeling
 
 A comprehensive machine learning surrogate modeling framework for a continuous binary distillation column (`DCOL-1`) modeled in **DWSIM** using the Peng-Robinson equation of state.
@@ -48,3 +49,7 @@ Models were evaluated using an 80:20 train-test split ($N_{train} = 96$, $N_{tes
 1. Ensure Python dependencies are installed (`numpy`, `pandas`, `scikit-learn`, `matplotlib`).
 2. Place your `Dataset.csv` file in the root workspace directory.
 3. Run the surrogate training script to reproduce parity plots and polynomial coefficients.
+=======
+# DWSIM-ML-distillation-surrogate
+A comprehensive machine learning surrogate modeling pipeline for a binary distillation column using DWSIM simulation data, comparing multiple regression models (Polynomial Regression, Random Forest, ANN) for real-time performance and energy prediction. This project is open-source and available under the MIT License.
+>>>>>>> d586e3fbc4f2e7f11418270235d7f7511e42075b
